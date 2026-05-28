@@ -1,4 +1,4 @@
-# Medan Commodity Price Scraper
+# Medan Commodity Price Scraper 
 
 A robust, production-ready web scraper for collecting commodity price data from the official Medan City government website (https://simpang.medan.go.id/?menu=harga). The scraper automatically handles Cloudflare protection, pagination, and includes retry logic for reliable data collection in cloud environments.
 
