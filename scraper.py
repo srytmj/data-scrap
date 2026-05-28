@@ -13,8 +13,10 @@ import traceback
 
 from playwright.async_api import async_playwright, TimeoutError as PlaywrightTimeout
 from playwright_stealth import Stealth
+from datetime import datetime
 
-OUTPUT_FILE   = "harga_medan.csv"
+date = datetime.now().strftime("%Y-%m-%d")
+OUTPUT_FILE = f"harga_medan_{date}.csv"
 BASE_URL      = "https://simpang.medan.go.id/?menu=harga"
 
 # Selectors
